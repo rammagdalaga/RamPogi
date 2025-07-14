@@ -179,37 +179,6 @@ body {
         }
 /* Responsive adjustments */
 @media (max-width: 768px) {
-    .container {
-                padding: 15px;
-                margin: 10px;
-            }
-            
-            .dropdown-header {
-                padding: 12px 15px;
-                font-size: 15px;
-            }
-            
-            .dropdown-content.open {
-                max-height: 600px;
-                padding: 15px;
-            }
-            
-            .dropdown-content p {
-                font-size: 14px;
-                line-height: 1.7;
-            }
-        }
-
-        @keyframes fadeIn {
-            from {
-                opacity: 0;
-                transform: translateY(-10px);
-            }
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
-    
   .workout-row {
     flex-direction: column;
     align-items: stretch;
